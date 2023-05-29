@@ -1,0 +1,43 @@
+@use 'variables';
+
+
+.infors__bar{
+    padding: 16px 24px;
+    background-color: variables.$corFontPrincipal;
+    display: flex;
+    justify-content: space-between;
+     &__box{
+        display: flex;
+        gap: 40px;
+
+
+
+
+        
+    }
+    &__item{
+        font-size: 14px;
+        b{ font-size: 18px;
+            color:variables.$corFundoHero;
+            display: block;
+        }
+         color:variables.$corFundoHero;
+        
+     }
+     @media (max-width:640px) {
+        display: block;
+        &__box{
+            display: block;
+        }
+        &__item{
+            margin-bottom: 24px;
+        }
+        
+     }
+     @media (max-width: 1024px) {
+        &__box{
+            gap:16px;
+        }
+        
+    }
+}

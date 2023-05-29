@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Evento</title>
 </head>
 <body>
@@ -18,9 +19,116 @@
                 O maior evento de tecnologia do Brasil começa em 10d 13h 40m 15s
 
             </p>
+            <div class="infors__bar">
+                <ul class="infors__bar__box">
+                    <li class="infors__bar__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infors__bar__item">
+                        <b>Preço</b>
+                       A partir de R$ 120,00
+                    </li>
+                    <li class="infors__bar__item">
+                        <b>Quando</b>
+                        12/12/2022 às 16hrs
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Garanta sua Vaga
+                </a>
+            </div>
 
         </div>
-    
+    </header>   
+    <main>
+        <section class="event event--frontEnd">
+             <div class="container event__container"  >
+                <div class="event__details" data-aos="fade-right" >
+                    <h2 class="event__details__title">Front-End</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Maiores voluptatum esse reiciendis facilis 
+                        eligendi nisi quas nihil voluptatem, libero culpa 
+                        aperiam tempora similique eum in architecto 
+                        consectetur repellendus iure a?
+                        aperiam tempora similique eum in architecto 
+                        consectetur repellendus iure a?
+                        eligendi nisi quas nihil voluptatem, libero culpa 
+                        aperiam tempora similique eum in architecto
+
+                    </p>
+                </div>
+                <img class="event__image" data-aos="fade-left" src="./src/image/frontend.png" alt="frontend">
+             </div>
+        </section>
+        <section class="event event--ux-ui">
+            <div class="container event__container event__container--image-left">
+               <div class="event__details" data-aos="fade-up-right">
+                   <h2 class="event__details__title">Ux & UI</h2>
+                   <p class="event__details__description">
+                       Lorem ipsum dolor sit amet consectetur adipisicing 
+                       elit. Maiores voluptatum esse reiciendis facilis 
+                       eligendi nisi quas nihil voluptatem, libero culpa 
+                       aperiam tempora similique eum in architecto 
+                       consectetur repellendus iure a?
+                       aperiam tempora similique eum in architecto 
+                       consectetur repellendus iure a?
+                       eligendi nisi quas nihil voluptatem, libero culpa 
+                       aperiam tempora similique eum in architecto
+
+                   </p>
+               </div>
+               <img class="event__image" data-aos="flip-right" src="./src/image/ui-ux.png" style="border-color: transparent;" alt="ui/ux">
+            </div>
+       </section>
+       <section class="event event--data-science">
+        <div class="container event__container">
+           <div class="event__details " data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+               <h2 class="event__details__title">Data Science</h2>
+               <p class="event__details__description">
+                   Lorem ipsum dolor sit amet consectetur adipisicing 
+                   elit. Maiores voluptatum esse reiciendis facilis 
+                   eligendi nisi quas nihil voluptatem, libero culpa 
+                   aperiam tempora similique eum in architecto 
+                   consectetur repellendus iure a?
+                   aperiam tempora similique eum in architecto 
+                   consectetur repellendus iure a?
+                   eligendi nisi quas nihil voluptatem, libero culpa 
+                   aperiam tempora similique eum in architecto
+
+               </p>
+           </div>
+           <img class="event__image" data-aos="zoom-out-down" src="./src/image/data.png" alt="frontend">
+        </div>
+   </section>
+   <section class="event event--backEnd">
+    <div class="container event__container event__container--image-left">
+       <div class="event__details" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+           <h2 class="event__details__title">Back-End</h2>
+           <p class="event__details__description">
+               Lorem ipsum dolor sit amet consectetur adipisicing 
+               elit. Maiores voluptatum esse reiciendis facilis 
+               eligendi nisi quas nihil voluptatem, libero culpa 
+               aperiam tempora similique eum in architecto 
+               consectetur repellendus iure a?
+               aperiam tempora similique eum in architecto 
+               consectetur repellendus iure a?
+               eligendi nisi quas nihil voluptatem, libero culpa 
+               aperiam tempora similique eum in architecto
+
+           </p>
+       </div>
+       <img class="event__image" data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="./src/image/backend.png" alt="frontend">
+    </div>
+</section>
+    </main> 
+    <footer class="footer">
+        <div class="footer__container">
+            <h4>Venha conhecer &COPY;copyright </h4>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script src="./src/scripts/main.js"></script>
 </body>
 </html>

@@ -1,1 +1,1 @@
-console.log ('Olar povoo')
+AOS.init();
